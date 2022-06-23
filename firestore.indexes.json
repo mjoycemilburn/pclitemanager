@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "userShoppingLists",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userEmail",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userPurchase",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
